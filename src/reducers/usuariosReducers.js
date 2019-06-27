@@ -1,4 +1,4 @@
-import { bindActionCreators } from "redux";
+import { actionCreators } from "redux";
 
 const INITIAL_STATE = {
     usuarios: []
