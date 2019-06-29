@@ -16,7 +16,7 @@ export const traertodos = () => async(dispatch) => {
 		console.log(error.message);
 		dispatch({
 			type: ERROR ,
-			payload: error.message
+			payload: 'Algo salio mal, intenta más tarde'
 		});
 	}
 };
